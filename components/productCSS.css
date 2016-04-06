@@ -1,0 +1,44 @@
+
+#content{
+    width: 100%;
+    height:100%;
+
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    width: 200px;
+    height: 500px;
+    margin: auto ;
+
+}
+input[type=text],input[type=password]{
+    display: block;
+    width: 200px;
+    padding:5px 20px 5px 5px;
+    margin-bottom: 10px;
+}
+input[type=submit],input[type=button] {
+    width: 80px;
+    border: none;
+    background-color: rgba(255, 192, 192, 0.84);
+    margin-left: 10px;
+    cursor: pointer;
+}
+input[type=submit]:hover,input[type=button]:hover{
+    background-color: #FFA1A1;
+}
+.changeLogin{
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.changeLogin:hover{
+    border-bottom: 1px solid #FFA1A1;
+}
+.tips{
+    color: red;
+}
